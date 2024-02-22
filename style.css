@@ -15,31 +15,33 @@
 .p1{
     line-height: 2.2rem;
 }
+.img{
+    display: flex;
+    align-items: center;
+    gap: 20PX;
+}
 .img2{
-    top: -21px;
-    position: relative;
-    left: 16px;
+    height: 20px;
 }
 .txt{
-    position: relative;
-    left: 35px;
     font-size: 1rem;
-    font-weight: 600;
-    top: -25px;
+    font-weight: 600; 
 }
+
 .btn{
     display: flex;
+    gap: 20px;
 }
 .btn1{
     background-color: #1c75bc;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: bold;
     line-height: 36px;
     text-align: center;
     border: none;
     border-radius: 5px;
     color: white;
-    cursor:pointer;
+    cursor: pointer;
     
 }
 .btn1:hover{
@@ -48,17 +50,16 @@
 }
 .btn2{
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: bold;
     line-height: 36px;
     text-align: center;
     border: none;
     border-radius: 5px;
-    cursor:pointer;
+    cursor: pointer;
     color: #1c75bc;
     background: white;
     border: 1px solid #1c75bc;
-    position: relative;
-    left: 39px;
+    
 }
 .btn2:hover{
     background-color: #0D3F67;
